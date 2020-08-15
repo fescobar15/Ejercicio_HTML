@@ -41,20 +41,12 @@
 
             <table>
                 <tr>
-                    <th>Dato</th>
-                    <th>Valor</th>
-                </tr>
-                <tr>
-                    <td>Fecha de nacimiento</td>
+                    <th>Fecha de nacimiento</th>
                     <td>Febrero 29, 1998</td>
                 </tr>
                 <tr>
-                    <td>Lugar de nacimiento</td>
+                    <th>Lugar de nacimiento</th>
                     <td>Bogotá, Colombia</td>
-                </tr>
-                <tr>
-                    <td>Sexo</td>
-                    <td>Hombre</td>
                 </tr>
             </table>
 
@@ -88,16 +80,57 @@
 
         <section id="interes">
             <h3>Puntos de interés</h3>
+
+            <h4>Videos interesantes</h4>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/aVfQMRHCGKY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/mB1nAzriqRQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            <h4>Enlaces interesantes</h4>
+
+            <ul>
+                <li><a href="https://www.economist.com/" target="_blank">Noticias económicas globales (The Economist)</a></li>
+                <li><a href="https://espndeportes.espn.com/" target="_blank">Noticias deportivas (ESPN)</a></li>
+            </ul>
+
+            <h4>Imágenes interesantes</h4>
+
+            <img src="https://portugalinews.eu/wp-content/uploads/2018/09/film.jpg" height="300" width="450">
+            <img src="https://www.sportswearable.net/wp-content/uploads/2019/03/sports-New-Brunswick.jpg" height="300" width="450">
+            <img src="https://www.homecareinsight.co.uk/wp-content/uploads/2020/07/connected-technology.jpg" height="300" width="450">
         </section>
 
         <section id="contacto">
             <h3>Formulario de contacto</h3>
+
+            <form>
+                <ul>
+                 <li>
+                   <label for="name">Nombre:</label>
+                   <input type="text" id="name" name="user_name">
+                 </li>
+                 <li>
+                   <label for="mail">E-mail:</label>
+                   <input type="email" id="mail" name="user_email">
+                 </li>
+                 <li>
+                   <label for="msg">Mensaje:</label>
+                   <textarea id="msg" name="user_message"></textarea>
+                 </li>
+                 <li class="button">
+                    <button type="submit">Enviar</button>
+                  </li>
+                </ul>
+               </form>
         </section>
 
     </main>
 
     <footer>
-        <p>Correo: f.escobar@uniandes.edu.co</p>
+        <p>Correo: <a href="mailto:f.escobar@uniandes.edu.co">f.escobar@uniandes.edu.co</a></p>
+
+        <p>Redes sociales: <a href="https://www.linkedin.com/in/felipe-escobar-avila" target="_blank">LinkedIn</a></p>
     </footer>
 </body>
 </html>
